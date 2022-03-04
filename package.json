@@ -1,0 +1,9 @@
+{
+    "name": "twitter-bot",
+    "private": true,
+    "scripts": {
+      "start": "sls invoke local -f hello",
+      "deploy" : "sls deploy"
+    }
+  }
+  
