@@ -2,8 +2,10 @@
     "name": "twitter-bot",
     "private": true,
     "scripts": {
-      "start": "sls invoke local -f hello",
-      "deploy" : "sls deploy"
+        "start": "sls invoke local -f reply",
+        "deploy": "sls deploy"
+    },
+    "devDependencies": {
+        "serverless-python-requirements": "^5.3.1"
     }
-  }
-  
+}

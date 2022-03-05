@@ -11,3 +11,10 @@ provider:
 functions:
   reply:
     handler: handler.reply
+
+plugins:
+  - serverless-python-requirements
+
+custom:
+  requirements:
+    - -r requirements.txt
